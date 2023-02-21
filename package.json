@@ -1,0 +1,31 @@
+{
+  "name": "conventional-commit-poc",
+  "version": "0.0.1",
+  "description": "Proof of concept package for demoing conventional commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmartin4563/conventional-commit-poc.git"
+  },
+  "author": "Jessica Lopatta <jlopatta@newrelic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmartin4563/conventional-commit-poc/issues"
+  },
+  "homepage": "https://github.com/jmartin4563/conventional-commit-poc#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^5.0.1",
+    "sinon": "^15.0.1"
+  }
+}
