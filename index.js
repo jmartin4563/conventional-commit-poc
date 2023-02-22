@@ -6,4 +6,4 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res, next) => res.status(200).json({ message: 'OK' }))
 
-app.listen(3000, () => console.log('Server up and listening on port 3000'))
+app.listen(4000, () => console.log('Server up and listening on port 4000'))
