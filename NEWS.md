@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.0...v1.0.1) (2023-02-22)
+
+
+### Bug Fixes
+
+* update application to use correct port ([1dbe3a0](https://github.com/jmartin4563/conventional-commit-poc/commit/1dbe3a0281859d3664c5f4fd61b09407693fde89))
+
+
+### Miscellaneous
+
+* bump body-parser to 1.20.2 ([aea68bb](https://github.com/jmartin4563/conventional-commit-poc/commit/aea68bb217cfa9a487c4a0d03c747d5caee98fca))
+
 ## 1.0.0 (2023-02-22)
 
 
