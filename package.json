@@ -6,7 +6,8 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx release-please"
+    "release": "npx release-please",
+    "prerelease": "node scripts/add-custom-changelog.js"
   },
   "repository": {
     "type": "git",
