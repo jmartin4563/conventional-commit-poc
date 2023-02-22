@@ -22,7 +22,7 @@ jobs:
       - name: Add Newrelic Release Notes Type
         run: node scripts/add-custom-changelog.js
       - name: Update release-please PR
-        run: npm run release-please -- --token=${{ secrets.GITHUB_TOKEN }} --repo-url=newrelic/node-newrelic --release-type=node --package-name=conventional-commit-poc --changelog-path=NEWS.md --changelog-type=newrelic 
+        run: npm run release -- --token=${{ secrets.GITHUB_TOKEN }} --repo-url=newrelic/node-newrelic --release-type=node --package-name=conventional-commit-poc --changelog-path=NEWS.md --changelog-type=newrelic 
       # - uses: google-github-actions/release-please-action@v3
       #   id: release
       #   with:
