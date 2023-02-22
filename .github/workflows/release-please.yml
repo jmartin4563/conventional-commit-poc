@@ -17,9 +17,9 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
-      - name: Install Dependencies
-        run: npm ci
-      - name: Create Release Notes
+      - name: Install release-please
+        run: npm install -g release-please
+      - name: Add Newrelic Release Notes Type
         run: node scripts/add-custom-changelog.js
       - uses: google-github-actions/release-please-action@v3
         id: release
