@@ -26,7 +26,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "release-please": "^15.8.0"
   },
   "dependencies": {
     "chai": "^4.3.7",
