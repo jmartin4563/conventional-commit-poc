@@ -18,13 +18,17 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
       - name: Install release-please
-        run: npm install -g release-please && node scripts/add-custom-changelog.js
-      - uses: google-github-actions/release-please-action@v3
-        id: release
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: node
-          package-name: conventional-commit-poc
-          changelog-path: NEWS.md
-          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"security","section":"Security Fixes","hidden":false}]'
-          changelog-notes-type: "newrelic"
+        run: npm ci
+      - name: Add Newrelic Release Notes Type
+        run: node scripts/add-custom-changelog.js
+      - name: Update release-please PR
+        run: npm run release-please -- --token=${{ secrets.GITHUB_TOKEN }} --repo-url=newrelic/node-newrelic --release-type=node --package-name=conventional-commit-poc --changelog-path=NEWS.md --changelog-type=newrelic 
+      # - uses: google-github-actions/release-please-action@v3
+      #   id: release
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     release-type: node
+      #     package-name: conventional-commit-poc
+      #     changelog-path: NEWS.md
+      #     changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"security","section":"Security Fixes","hidden":false}]'
+      #     changelog-notes-type: "newrelic"
