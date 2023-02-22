@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.1...v1.0.2) (2023-02-22)
+
+
+### Miscellaneous
+
+* boop beep deps stuff ([#7](https://github.com/jmartin4563/conventional-commit-poc/issues/7)) ([966a3cc](https://github.com/jmartin4563/conventional-commit-poc/commit/966a3cc1e72aa58020b5a0b731ef764450e58937))
+
 ## [1.0.1](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.0...v1.0.1) (2023-02-22)
 
 
