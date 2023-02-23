@@ -27,5 +27,5 @@ jobs:
           changelog-path: NEWS.md
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug fixes","hidden":false},{"type":"security","section":"Security fixes","hidden":false}]'
       - name: Update GH Release with Support Statement
-        run: node scripts/releases.js
+        run: node scripts/release-disclaimer.js
         if: ${{ steps.release.outputs.release_created }}
