@@ -7,6 +7,7 @@ if (!process.env.GITHUB_TOKEN) {
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN
 })
+
 const owner = 'jmartin4563'
 const repo = 'conventional-commit-poc'
 const SUPPORT_STATEMENT = `
@@ -16,11 +17,7 @@ const SUPPORT_STATEMENT = `
 
 async function updateRelease () {
   const response = await octokit.repos.getLatestRelease({ owner, repo })
-  console.log(response)
   const { id, body } = response.data
-
-  console.log(`Appending disclaimer and updating release #${id}`)
-
   await octokit.repos.updateRelease({ owner, repo, release_id: id, body: `${body}\n${SUPPORT_STATEMENT}` })
 }
 
