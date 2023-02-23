@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/jmartin4563/conventional-commit-poc/issues"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "homepage": "https://github.com/jmartin4563/conventional-commit-poc#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
