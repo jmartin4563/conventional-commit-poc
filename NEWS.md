@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.2...v1.1.0) (2023-02-23)
+
+
+### Features
+
+* add new health check endpoint under `/health` ([9fe6fe7](https://github.com/jmartin4563/conventional-commit-poc/commit/9fe6fe7de87dffdb2de9d76f36637e281e826704))
+
+
+### Bug fixes
+
+* use the standard example express port of 3000 ([52db2b1](https://github.com/jmartin4563/conventional-commit-poc/commit/52db2b14a54a41c1afa0be38efd5f3e75cc9f8b4))
+
 ## [1.0.2](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.1...v1.0.2) (2023-02-22)
 
 
