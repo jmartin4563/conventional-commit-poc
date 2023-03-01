@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.1.0...v2.0.0) (2023-03-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* `message` field has been renamed to `msg`
+
+### Features
+
+* add changelog.json ([#17](https://github.com/jmartin4563/conventional-commit-poc/issues/17)) ([d99f67c](https://github.com/jmartin4563/conventional-commit-poc/commit/d99f67c294004de5a63d6386fde5abb931ce5ccd))
+* added `timestamp` field to API response ([#15](https://github.com/jmartin4563/conventional-commit-poc/issues/15)) ([3646ab7](https://github.com/jmartin4563/conventional-commit-poc/commit/3646ab78ba115939b893c2b5f7fed5c349a31497))
+
+
+### Bug fixes
+
+* changelog.json needs json ([7defc9e](https://github.com/jmartin4563/conventional-commit-poc/commit/7defc9ebe76f251319be6bc3d70c1f40a560b183))
+
 ## [1.1.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.0.2...v1.1.0) (2023-02-23)
 
 
