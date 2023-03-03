@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.1](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.0.0...v2.0.1) (2023-03-03)
+
+
+### Bug fixes
+
+* use correct logging message on server start ([#14](https://github.com/jmartin4563/conventional-commit-poc/issues/14)) ([3819097](https://github.com/jmartin4563/conventional-commit-poc/commit/38190975caf8917d52d296caf50c953f2ffd42e6))
+
+
+### Security fixes
+
+* update eslint and mongodb dependencies ([#13](https://github.com/jmartin4563/conventional-commit-poc/issues/13)) ([182701f](https://github.com/jmartin4563/conventional-commit-poc/commit/182701f2c9d5a2f2ed9345f724cd5d3f180e0f75))
+
 ## [2.0.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v1.1.0...v2.0.0) (2023-03-01)
 
 
