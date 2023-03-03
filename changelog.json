@@ -1,4 +1,30 @@
 {
-    "entries": [],
-    "updateTime": ""
+  "entries": [
+    {
+      "changes": [
+        {
+          "type": "security",
+          "sha": "182701f2c9d5a2f2ed9345f724cd5d3f180e0f75",
+          "message": "update eslint and mongodb dependencies",
+          "issues": [
+            "13"
+          ]
+        },
+        {
+          "type": "fix",
+          "sha": "38190975caf8917d52d296caf50c953f2ffd42e6",
+          "message": "use correct logging message on server start",
+          "issues": [
+            "14"
+          ]
+        }
+      ],
+      "version": "2.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "conventional-commit-poc",
+      "id": "4037113f-89f0-4f00-bf63-4fd5da465afd",
+      "createTime": "2023-03-03T14:52:34.953Z"
+    }
+  ],
+  "updateTime": "2023-03-03T14:52:34.953Z"
 }
