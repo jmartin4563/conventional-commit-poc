@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.0.1...v2.1.0) (2023-03-07)
+
+
+### Features
+
+* add new field `foo` to API response body ([#20](https://github.com/jmartin4563/conventional-commit-poc/issues/20)) ([ef93ff6](https://github.com/jmartin4563/conventional-commit-poc/commit/ef93ff662c040f9efd3702e61aba0899d50d0561))
+
+
+### Bug fixes
+
+* remove extraneous packages ([6931231](https://github.com/jmartin4563/conventional-commit-poc/commit/69312314f14181c73ff1f854a3307a25fcd6387d))
+
 ## [2.0.1](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.0.0...v2.0.1) (2023-03-03)
 
 
