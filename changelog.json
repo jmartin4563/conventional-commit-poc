@@ -3,6 +3,29 @@
     {
       "changes": [
         {
+          "type": "fix",
+          "sha": "69312314f14181c73ff1f854a3307a25fcd6387d",
+          "message": "remove extraneous packages",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "ef93ff662c040f9efd3702e61aba0899d50d0561",
+          "message": "add new field `foo` to API response body",
+          "issues": [
+            "20"
+          ]
+        }
+      ],
+      "version": "2.1.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "conventional-commit-poc",
+      "id": "d9f16b7e-b1d3-4cf6-b32b-137c27d8451f",
+      "createTime": "2023-03-07T15:27:42.901Z"
+    },
+    {
+      "changes": [
+        {
           "type": "security",
           "sha": "182701f2c9d5a2f2ed9345f724cd5d3f180e0f75",
           "message": "update eslint and mongodb dependencies",
@@ -26,5 +49,5 @@
       "createTime": "2023-03-03T14:52:34.953Z"
     }
   ],
-  "updateTime": "2023-03-03T14:52:34.953Z"
+  "updateTime": "2023-03-07T15:27:42.901Z"
 }
