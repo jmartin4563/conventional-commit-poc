@@ -4,6 +4,24 @@
       "changes": [
         {
           "type": "fix",
+          "sha": "ee23b186118a6845f7a063b04b150ff154eb7974",
+          "message": "update health check endpoint route",
+          "issues": [
+            "22"
+          ],
+          "breakingChangeNote": "update health check endpoint route ([#22](https://github.com/jmartin4563/conventional-commit-poc/issues/22))"
+        }
+      ],
+      "version": "3.0.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "conventional-commit-poc",
+      "id": "4a99e189-c9d4-4830-8972-efdfd99cd3c8",
+      "createTime": "2023-03-07T20:32:05.850Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
           "sha": "69312314f14181c73ff1f854a3307a25fcd6387d",
           "message": "remove extraneous packages",
           "issues": []
@@ -49,5 +67,5 @@
       "createTime": "2023-03-03T14:52:34.953Z"
     }
   ],
-  "updateTime": "2023-03-07T15:27:42.901Z"
+  "updateTime": "2023-03-07T20:32:05.850Z"
 }

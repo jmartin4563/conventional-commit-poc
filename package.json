@@ -1,6 +1,6 @@
 {
   "name": "conventional-commit-poc",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Proof of concept package for demoing conventional commits",
   "main": "index.js",
   "private": "true",

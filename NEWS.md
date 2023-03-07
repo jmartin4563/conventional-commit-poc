@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.1.0...v3.0.0) (2023-03-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* update health check endpoint route ([#22](https://github.com/jmartin4563/conventional-commit-poc/issues/22))
+
+### Bug fixes
+
+* update health check endpoint route ([#22](https://github.com/jmartin4563/conventional-commit-poc/issues/22)) ([ee23b18](https://github.com/jmartin4563/conventional-commit-poc/commit/ee23b186118a6845f7a063b04b150ff154eb7974))
+
 ## [2.1.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.0.1...v2.1.0) (2023-03-07)
 
 
