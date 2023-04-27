@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.1.0 (2023-04-27)
+
+## What's Changed
+* feat: add foo.json by @jmartin4563 in https://github.com/jmartin4563/conventional-commit-poc/pull/26
+
+
+**Full Changelog**: https://github.com/jmartin4563/conventional-commit-poc/compare/v3.0.0...v3.1.0
+
 ## [3.0.0](https://github.com/jmartin4563/conventional-commit-poc/compare/v2.1.0...v3.0.0) (2023-03-07)
 
 

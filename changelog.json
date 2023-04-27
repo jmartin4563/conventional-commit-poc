@@ -3,6 +3,23 @@
     {
       "changes": [
         {
+          "type": "feat",
+          "sha": "7960cc87410cb5f2dd7e9dd55b2c73489c0482e1",
+          "message": "add foo.json",
+          "issues": [
+            "26"
+          ]
+        }
+      ],
+      "version": "3.1.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "conventional-commit-poc",
+      "id": "6e1cc229-8071-476d-9f22-1daab0a5feb3",
+      "createTime": "2023-04-27T14:23:44.670Z"
+    },
+    {
+      "changes": [
+        {
           "type": "fix",
           "sha": "ee23b186118a6845f7a063b04b150ff154eb7974",
           "message": "update health check endpoint route",
@@ -67,5 +84,5 @@
       "createTime": "2023-03-03T14:52:34.953Z"
     }
   ],
-  "updateTime": "2023-03-07T20:32:05.850Z"
+  "updateTime": "2023-04-27T14:23:44.670Z"
 }
